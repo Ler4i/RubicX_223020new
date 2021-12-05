@@ -1,0 +1,4 @@
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.DataAccess.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.deps.json
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.DataAccess.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.dll
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.AssemblyInfo.cs
