@@ -61,9 +61,13 @@ namespace RubicX_223020new.BusinessLogic.Services
             throw new NotImplementedException();
         }
 
-        public Task<UserInformationBlo> Get(int userId)
+        public async Task<UserInformationBlo> Get(int userId)
         {
-            throw new NotImplementedException();
+            UserRto user = await _context.Users.FirstOrDefaultAsync(x => x.Id == userId);
+
+            if (user == null) throw new NotFoundException("пользователь не найден");
+
+            return await ConvertToUserInformation(user);
         }
 
         public Task GetProfileDataAsync(ProfileDataRequestContext context)
@@ -105,9 +109,9 @@ namespace RubicX_223020new.BusinessLogic.Services
         {
             if (userRto == null) throw new ArgumentNullException(nameof(userRto));
 
-            var userInfromationBlo = _mapper.Map<UserInformationBlo>(userRto);
+            UserInformationBlo userInformationBlo = _mapper.Map<UserInformationBlo>(userRto);
 
-            return userInfromationBlo;
+            return userInformationBlo;
 
         }
     }
