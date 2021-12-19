@@ -9,7 +9,7 @@ namespace RubicX_223020new.DataAccess.DbContext
 {
     public class RubicContext : Microsoft.EntityFrameworkCore.DbContext, IRubicContext
     {
-        public RubicContext(DbContextOptions<RubicContext> options) : base(options)
+        public RubicContext(DbContextOptions<RubicContext> options) : base(options)//БД
         {
 
         }

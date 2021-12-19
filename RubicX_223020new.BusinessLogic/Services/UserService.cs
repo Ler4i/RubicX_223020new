@@ -43,22 +43,37 @@ namespace RubicX_223020new.BusinessLogic.Services
             {
                 throw new NotFoundException($"Пользователь с почтой {email} не найден");
             }
-            return await ConvertToUserInformation(user);//await освобождает от Task
+            return await ConvertToUserInformationAsync(user);//await освобождает от Task
         }
 
-        public Task<UserInformationBlo> AuthWithLogin(string login, string password)
+        public async Task<UserInformationBlo> AuthWithLogin(string login, string password)
         {
-            throw new NotImplementedException();
+
+            UserRto user = await _context.Users.FirstOrDefaultAsync(p => p.Login == login && p.Password == password);//асинхронно
+
+            if (user == null)
+            {
+                throw new NotFoundException($"Пользователь с логином {login} не найден");
+            }
+            return await ConvertToUserInformationAsync(user);//await освобождает от Task
         }
 
-        public Task<UserInformationBlo> AuthWithPhone(string numberPrefix, string number, string password)
+        public async Task<UserInformationBlo> AuthWithPhone(string numberPrefix, string number, string password)
         {
-            throw new NotImplementedException();
+
+            UserRto user = await _context.Users.FirstOrDefaultAsync(p => p.PhoneNumberPrefix == numberPrefix && p.PhoneNumber == number && p.Password == password);//асинхронно
+
+            if (user == null)
+            {
+                throw new NotFoundException($"Пользователь с телефоном {numberPrefix}{number} не найден");
+            }
+            return await ConvertToUserInformationAsync(user);//await освобождает от Task
         }
 
-        public Task<bool> DoesExist(string numberPrefix, string number)
+        public async  Task<bool> DoesExist(string numberPrefix, string number)//не занят
         {
-            throw new NotImplementedException();
+            bool result = await _context.Users.AnyAsync(y => y.PhoneNumber == number && y.PhoneNumberPrefix == numberPrefix);
+            return result; 
         }
 
         public async Task<UserInformationBlo> Get(int userId)
@@ -67,7 +82,7 @@ namespace RubicX_223020new.BusinessLogic.Services
 
             if (user == null) throw new NotFoundException("пользователь не найден");
 
-            return await ConvertToUserInformation(user);
+            return await ConvertToUserInformationAsync(user);
         }
 
         public Task GetProfileDataAsync(ProfileDataRequestContext context)
@@ -90,9 +105,24 @@ namespace RubicX_223020new.BusinessLogic.Services
             throw new NotImplementedException();
         }
 
-        public Task<UserInformationBlo> RegisterWithPhone(string numberPrefix, string number, string password)
+        public async Task<UserInformationBlo> RegisterWithPhone(string numberPrefix, string number, string password)
         {
-            throw new NotImplementedException();
+
+            bool result = await _context.Users.AnyAsync(y => y.PhoneNumber == number && y.PhoneNumberPrefix == numberPrefix);//сущ-ет ли 
+            if (result == true) throw new BadRequestException("Такой пльзователь уже есть");
+
+            UserRto user = new UserRto() 
+            { 
+                Password = password, 
+                PhoneNumber = number, 
+                PhoneNumberPrefix = numberPrefix
+            };
+
+            _context.Users.Add(user);
+
+            await _context.SaveChangesAsync();
+            UserInformationBlo userInfoBlo = await ConvertToUserInformationAsync(user);
+            return userInfoBlo;
         }
 
         public Task SignOutAsync(SignOutContext context)
@@ -100,12 +130,30 @@ namespace RubicX_223020new.BusinessLogic.Services
             throw new NotImplementedException();
         }
 
-        public Task<UserInformationBlo> Update(string numberPrefix, string number, string password, UserUpdateBlo userUpdateBlo)
+        public async Task<UserInformationBlo> Update(string numberPrefix, string number, string password, UserUpdateBlo userUpdateBlo)
         {
-            throw new NotImplementedException();
+            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumberPrefix == numberPrefix && y.PhoneNumber == number && y.Password == password);
+
+            if (user == null) throw new NotFoundException("Такого пользователя нет");
+
+            user.Password = userUpdateBlo.Password;
+            user.Email = userUpdateBlo.Email;
+            user.Login = userUpdateBlo.Login;
+            user.IsBoy = userUpdateBlo.IsBoy;
+            user.PhoneNumber = userUpdateBlo.PhoneNumder;
+            user.PhoneNumberPrefix = userUpdateBlo.PhoneNumderPrefix;
+            user.FirstName = userUpdateBlo.FirstName;
+            user.LastName = userUpdateBlo.LastName;
+            user.Patronymic = userUpdateBlo.Patronymic;
+            user.Birthday = userUpdateBlo.Birthday;
+            user.AvatarUrl = userUpdateBlo.AvatarUrl;
+
+            UserInformationBlo userInfoBlo = await ConvertToUserInformationAsync(user);
+            return userInfoBlo;
+
         }
 
-        private async Task<UserInformationBlo> ConvertToUserInformation(UserRto userRto)
+        private async Task<UserInformationBlo> ConvertToUserInformationAsync(UserRto userRto)
         {
             if (userRto == null) throw new ArgumentNullException(nameof(userRto));
 

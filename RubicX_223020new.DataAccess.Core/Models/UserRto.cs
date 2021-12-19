@@ -13,8 +13,8 @@ namespace RubicX_223020new.DataAccess.Core.Models
         public string Email { get; set; }
         public string Login { get; set; }
         public bool IsBoy { get; set; }
-        [Required] public string PhoneNumderPrefix { get; set; }
-        [Required] public string PhoneNumder { get; set; }
+        [Required] public string PhoneNumberPrefix { get; set; }
+        [Required] public string PhoneNumber { get; set; }
         [Required, MinLength(7)] public string Password { get; set; }
 
         public string FirstName { get; set; }

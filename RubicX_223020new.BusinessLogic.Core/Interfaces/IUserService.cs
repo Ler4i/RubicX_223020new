@@ -1,6 +1,8 @@
-﻿using System;
+﻿using RubicX_223020new.BusinessLogic.Core.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RubicX_223020new.BusinessLogic.Core.Interfaces
 {
