@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RubicX_223020new.BusinessLogic.Core/1.0.0": {
+        "runtime": {
+          "RubicX_223020new.BusinessLogic.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RubicX_223020new.BusinessLogic.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

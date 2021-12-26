@@ -5,7 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.22" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RubicX_223020new.BusinessLogic.Core\RubicX_223020new.BusinessLogic.Core.csproj" />
+    <ProjectReference Include="..\RubicX_223020new.BusinessLogic\RubicX_223020new.BusinessLogic.csproj" />
+    <ProjectReference Include="..\RubicX_223020new.Core\RubicX_223020new.Core.csproj" />
+    <ProjectReference Include="..\RubicX_223020new.DataAccess.Core\RubicX_223020new.DataAccess.Core.csproj" />
+    <ProjectReference Include="..\RubicX_223020new.DataAccess\RubicX_223020new.DataAccess.csproj" />
   </ItemGroup>
 
 

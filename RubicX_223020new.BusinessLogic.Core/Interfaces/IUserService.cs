@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RubicX_223020new.BusinessLogic.Core.Interfaces
 {
-    interface IUserService
+    public interface IUserService
     {
         Task<UserInformationBlo> RegisterWithPhone(string numberPrefix, string number, string password);//регистрация в ()-запрос
         Task<UserInformationBlo> AuthWithPhone(string numberPrefix, string number, string password);//авторизация через телефон
