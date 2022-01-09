@@ -128,6 +128,22 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Design/3.1.21": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.21"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+        },
+        "build": {
+          "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.22": {
         "type": "package",
         "dependencies": {
@@ -166,6 +182,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/3.1.21": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.21"
+        },
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/3.1.22": {
@@ -793,6 +821,22 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
+    "Microsoft.EntityFrameworkCore.Design/3.1.21": {
+      "sha512": "Nc4ggg92LF4V6oxZIOzhIA3sJK8mBOH41uiotcJNzCbNS6IovAtngGC0314EoQib78rfvz8996kNa5SS7SQUTw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.design/3.1.21",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
+        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
+        "microsoft.entityframeworkcore.design.3.1.21.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore.Relational/3.1.22": {
       "sha512": "EwdYh29kDJVSU8YiTUMQgROC5a0A4YxCLItwrNYicE71qxZstYxpH0fjjtolClOEdZiVR5bwdKHFT42eTFuJgA==",
       "type": "package",
@@ -832,6 +876,30 @@
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
         "microsoft.entityframeworkcore.sqlite.core.3.1.22.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/3.1.21": {
+      "sha512": "GlIzvL1+E562ReIVk3S9T5Phh723FYGz7oNFFdV0IFpD3uKZNzRFkGSukQxZAKgYtTzaL6HM7mt/OUXfzdHG0g==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/3.1.21",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/_._",
+        "microsoft.entityframeworkcore.tools.3.1.21.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.22": {
@@ -1390,7 +1458,9 @@
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.21",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.22",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.21",
       "RubicX_223020new.BusinessLogic >= 1.0.0",
       "RubicX_223020new.BusinessLogic.Core >= 1.0.0",
       "RubicX_223020new.Core >= 1.0.0",
@@ -1399,23 +1469,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\StudentDev\\.nuget\\packages\\": {},
+    "C:\\Users\\savin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new\\RubicX_223020new.csproj",
+      "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new\\RubicX_223020new.csproj",
       "projectName": "RubicX_223020new",
-      "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new\\RubicX_223020new.csproj",
-      "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new\\obj\\",
+      "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new\\RubicX_223020new.csproj",
+      "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1429,20 +1499,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
-              "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj"
+            "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj"
             },
-            "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj"
+            "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj"
             },
-            "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj": {
-              "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj"
+            "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj"
             },
-            "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
-              "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
+            "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
             },
-            "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj"
+            "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj"
             }
           }
         }
@@ -1464,9 +1534,21 @@
             "target": "Package",
             "version": "[8.1.1, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.21, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[3.1.22, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.21, )"
           }
         },
         "imports": [

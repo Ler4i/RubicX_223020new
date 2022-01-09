@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\StudentDev\\.nuget\\packages\\": {},
+    "C:\\Users\\savin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj",
+      "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj",
       "projectName": "RubicX_223020new.Core",
-      "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj",
-      "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.Core\\obj\\",
+      "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.Core\\RubicX_223020new.Core.csproj",
+      "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

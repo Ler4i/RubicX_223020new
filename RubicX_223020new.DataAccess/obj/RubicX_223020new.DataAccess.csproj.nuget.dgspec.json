@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {}
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
         "projectName": "RubicX_223020new.DataAccess.Core",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\obj\\",
+        "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -66,20 +66,20 @@
         }
       }
     },
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
         "projectName": "RubicX_223020new.DataAccess",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -93,8 +93,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
-                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
+              "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
               }
             }
           }
@@ -107,6 +107,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.21, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

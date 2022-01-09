@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj": {}
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
         "projectName": "RubicX_223020new.BusinessLogic.Core",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\obj\\",
+        "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,20 +60,20 @@
         }
       }
     },
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj": {
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj",
         "projectName": "RubicX_223020new.BusinessLogic",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\RubicX_223020new.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -87,14 +87,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
-                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj"
+              "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
+                "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj"
               },
-              "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
-                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
+              "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
+                "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
               },
-              "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\Share\\Share.csproj": {
-                "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\Share\\Share.csproj"
+              "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\Share\\Share.csproj": {
+                "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\Share\\Share.csproj"
               }
             }
           }
@@ -136,20 +136,20 @@
         }
       }
     },
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
         "projectName": "RubicX_223020new.DataAccess.Core",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\obj\\",
+        "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -198,20 +198,20 @@
         }
       }
     },
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\Share\\Share.csproj": {
+    "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\Share\\Share.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\Share\\Share.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\Share\\Share.csproj",
         "projectName": "Share",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\Share\\Share.csproj",
-        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\Share\\obj\\",
+        "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\Share\\Share.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\Share\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
