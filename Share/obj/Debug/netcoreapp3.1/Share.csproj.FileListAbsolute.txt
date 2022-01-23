@@ -7,3 +7,12 @@ C:\Users\student\Desktop\testgame\RubicX_223020new\Share\obj\Debug\netcoreapp3.1
 C:\Users\student\Desktop\testgame\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\testgame\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.dll
 C:\Users\student\Desktop\testgame\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.pdb
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\bin\Debug\netcoreapp3.1\Share.deps.json
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\bin\Debug\netcoreapp3.1\Share.dll
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\bin\Debug\netcoreapp3.1\Share.pdb
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.csprojAssemblyReference.cache
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.AssemblyInfo.cs
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.dll
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.pdb

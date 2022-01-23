@@ -20,8 +20,8 @@ namespace RubicX_223020new.BusinessLogic.AutoMapperProfile
                 .ForMember(x => x.Password, x => x.MapFrom(m => m.Password))
                 .ForMember(x => x.Email, x => x.MapFrom(m => m.Email))
                 .ForMember(x => x.Login, x => x.MapFrom(m => m.Login))
-                .ForMember(x => x.PhoneNumderPrefix, x => x.MapFrom(m => m.PhoneNumderPrefix))
-                .ForMember(x => x.PhoneNumder, x => x.MapFrom(m => m.PhoneNumder))
+                .ForMember(x => x.PhoneNumderPrefix, x => x.MapFrom(m => m.PhoneNumberPrefix))
+                .ForMember(x => x.PhoneNumder, x => x.MapFrom(m => m.PhoneNumber))
                 .ForMember(x => x.IsBoy, x => x.MapFrom(m => m.IsBoy))
                 .ForMember(x => x.AvatarUrl, x => x.MapFrom(m => m.AvatarUrl));
 
@@ -32,8 +32,8 @@ namespace RubicX_223020new.BusinessLogic.AutoMapperProfile
                     .ForMember(x => x.FirstName, x => x.MapFrom(m => m.FirstName))
                     .ForMember(x => x.Patronymic, x => x.MapFrom(m => m.Patronymic))
                     .ForMember(x => x.Email, x => x.MapFrom(m => m.Email))
-                    .ForMember(x => x.PhoneNumderPrefix, x => x.MapFrom(m => m.PhoneNumderPrefix))
-                    .ForMember(x => x.PhoneNumder, x => x.MapFrom(m => m.PhoneNumder))
+                    .ForMember(x => x.PhoneNumderPrefix, x => x.MapFrom(m => m.PhoneNumberPrefix))
+                    .ForMember(x => x.PhoneNumder, x => x.MapFrom(m => m.PhoneNumber))
                     .ForMember(x => x.IsBoy, x => x.MapFrom(m => m.IsBoy))
                     .ForMember(x => x.AvatarUrl, x => x.MapFrom(m => m.AvatarUrl));
         }

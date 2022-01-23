@@ -8,3 +8,13 @@ C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogi
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.AssemblyInfoInputs.cache
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.AssemblyInfo.cs
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\bin\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.pdb
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\bin\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.dll
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\bin\Debug\netcoreapp3.1\Share.dll
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\bin\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.pdb
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\bin\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.pdb
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\bin\Debug\netcoreapp3.1\Share.pdb
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.csproj.CopyComplete
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.dll
+C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\RubicX_223020new.BusinessLogic\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.pdb

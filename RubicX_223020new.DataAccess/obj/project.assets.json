@@ -90,7 +90,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.21"
         },
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -825,28 +825,29 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore.Design >= 3.1.21",
+      "Microsoft.EntityFrameworkCore.Relational >= 3.1.21",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.21",
       "RubicX_223020new.DataAccess.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\savin\\.nuget\\packages\\": {},
+    "C:\\Users\\StudentDev\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
       "projectName": "RubicX_223020new.DataAccess",
-      "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -860,8 +861,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
-              "projectPath": "C:\\Users\\student\\Desktop\\testgame\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
+            "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
+              "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
             }
           }
         }
@@ -878,6 +879,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.21, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[3.1.21, )"
           },
