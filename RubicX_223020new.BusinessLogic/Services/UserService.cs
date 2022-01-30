@@ -130,9 +130,9 @@ namespace RubicX_223020new.BusinessLogic.Services
             throw new NotImplementedException();
         }
 
-        public async Task<UserInformationBlo> Update(string numberPrefix, string number, string password, UserUpdateBlo userUpdateBlo)
+        public async Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo)
         {
-            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumberPrefix == numberPrefix && y.PhoneNumber == number && y.Password == password);
+            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumberPrefix == userUpdateBlo.CurrentPhoneNumber && y.PhoneNumber == userUpdateBlo.CurrentPhoneNumderPrefix && y.Password == userUpdateBlo.CurrentPassword);
 
             if (user == null) throw new NotFoundException("Такого пользователя нет");
 

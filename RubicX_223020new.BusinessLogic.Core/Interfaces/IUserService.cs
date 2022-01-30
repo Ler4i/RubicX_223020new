@@ -13,7 +13,7 @@ namespace RubicX_223020new.BusinessLogic.Core.Interfaces
         Task<UserInformationBlo> AuthWithEmail(string email, string password);//авторизация через мыло
         Task<UserInformationBlo> AuthWithLogin(string login, string password);
         Task<UserInformationBlo> Get(int userId);
-        Task<UserInformationBlo> Update(string numberPrefix, string number, string password, UserUpdateBlo userUpdateBlo);//put
-        Task<bool> DoesExist(string numberPrefix, string number);
+        Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo);//put
+        Task<bool> DoesExist(string numberPrefix, string number);//занят ли номер телефона
     }
 }

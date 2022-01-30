@@ -40,7 +40,7 @@ namespace RubicX_223020new
             services.AddScoped<IUserService, UserService>();
             services.AddControllers();
 
-            services.AddCors();
+            services.AddCors();//защита сервера от чужых сайтов
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
