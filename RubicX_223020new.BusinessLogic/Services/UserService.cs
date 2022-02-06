@@ -3,8 +3,8 @@ using IdentityServer3.Core.Models;
 using IdentityServer3.Core.Services;
 using Microsoft.EntityFrameworkCore;
 using RubicX_223020new.BusinessLogic.Core.Models;
-using RubicX_223020new.DataAccess.Core.Interfaces.DbContext;
 using RubicX_223020new.DataAccess.Core.Models;
+using RubicX_223020new.DataAccess.DbContext;
 using Share.Exceptions;
 using System;
 using System.Collections.Generic;
@@ -17,9 +17,9 @@ namespace RubicX_223020new.BusinessLogic.Services
     public class UserService : IUserService
     {
         private readonly IMapper _mapper;
-        private readonly IRubicContext _context;
+        private readonly RubicContext _context;
 
-        public UserService(IMapper mapper, IRubicContext context)
+        public UserService(IMapper mapper, RubicContext context)
         {
             _mapper = mapper;
             _context = context;//ходит в контекст
@@ -132,7 +132,7 @@ namespace RubicX_223020new.BusinessLogic.Services
 
         public async Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo)
         {
-            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumberPrefix == userUpdateBlo.CurrentPhoneNumber && y.PhoneNumber == userUpdateBlo.CurrentPhoneNumderPrefix && y.Password == userUpdateBlo.CurrentPassword);
+            UserRto user = await _context.Users.FirstOrDefaultAsync(y => y.PhoneNumberPrefix == userUpdateBlo.CurrentPhoneNumber && y.PhoneNumber == userUpdateBlo.CurrentNumderPrefix && y.Password == userUpdateBlo.CurrentPassword);
 
             if (user == null) throw new NotFoundException("Такого пользователя нет");
 

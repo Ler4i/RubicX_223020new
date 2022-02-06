@@ -16,3 +16,12 @@ C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.Core\obj\Deb
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.dll
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.pdb
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.Core.deps.json
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.Core.dll
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.Core.pdb
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.AssemblyInfoInputs.cache
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.AssemblyInfo.cs
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.csproj.CoreCompileInputs.cache
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.dll
+D:\Repository\RubicX_223020new\RubicX_223020new.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.Core.pdb

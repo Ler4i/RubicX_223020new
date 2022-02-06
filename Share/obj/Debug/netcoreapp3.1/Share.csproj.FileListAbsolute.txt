@@ -16,3 +16,12 @@ C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp
 C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.csproj.CoreCompileInputs.cache
 C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.dll
 C:\Users\StudentDev\Documents\GitHub\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.pdb
+D:\Repository\RubicX_223020new\Share\bin\Debug\netcoreapp3.1\Share.deps.json
+D:\Repository\RubicX_223020new\Share\bin\Debug\netcoreapp3.1\Share.dll
+D:\Repository\RubicX_223020new\Share\bin\Debug\netcoreapp3.1\Share.pdb
+D:\Repository\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.AssemblyInfoInputs.cache
+D:\Repository\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.AssemblyInfo.cs
+D:\Repository\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.csproj.CoreCompileInputs.cache
+D:\Repository\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.dll
+D:\Repository\RubicX_223020new\Share\obj\Debug\netcoreapp3.1\Share.pdb

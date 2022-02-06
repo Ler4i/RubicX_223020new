@@ -16,3 +16,12 @@ C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogi
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.dll
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.pdb
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.deps.json
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.dll
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.pdb
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.AssemblyInfoInputs.cache
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.AssemblyInfo.cs
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.csproj.CoreCompileInputs.cache
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.dll
+D:\Repository\RubicX_223020new\RubicX_223020new.BusinessLogic.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.BusinessLogic.Core.pdb

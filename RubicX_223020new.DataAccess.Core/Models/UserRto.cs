@@ -7,7 +7,7 @@ using System.Text;
 namespace RubicX_223020new.DataAccess.Core.Models
 {
     [Table("User")]
-    public class UserRto
+    public class UserRto//описание только таблицы
     {
         [Key] public int Id { get; set; }//столбец
         public string Email { get; set; }

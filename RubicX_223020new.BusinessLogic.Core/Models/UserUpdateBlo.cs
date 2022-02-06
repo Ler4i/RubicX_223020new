@@ -20,8 +20,8 @@ namespace RubicX_223020new.BusinessLogic.Core.Models
         public string AvatarUrl { get; set; }
 
 
-        public string CurrentPhoneNumber { get; set; }
-        public string CurrentPhoneNumderPrefix { get; set; }
+        public string CurrentPhoneNumber { get; set; }//в данный момент
+        public string CurrentNumderPrefix { get; set; }
         public string CurrentPassword { get; set; }
 
     }

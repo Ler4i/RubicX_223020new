@@ -14,21 +14,7 @@ namespace RubicX_223020new.DataAccess.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.22");
-
-            modelBuilder.Entity("RubicX_223020new.DataAccess.Core.Models.UserRoleRto", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("UserRole");
-                });
+                .HasAnnotation("ProductVersion", "3.1.21");
 
             modelBuilder.Entity("RubicX_223020new.DataAccess.Core.Models.UserRto", b =>
                 {
@@ -72,21 +58,9 @@ namespace RubicX_223020new.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int?>("RoleId")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("RoleId");
-
                     b.ToTable("User");
-                });
-
-            modelBuilder.Entity("RubicX_223020new.DataAccess.Core.Models.UserRto", b =>
-                {
-                    b.HasOne("RubicX_223020new.DataAccess.Core.Models.UserRoleRto", "Role")
-                        .WithMany()
-                        .HasForeignKey("RoleId");
                 });
 #pragma warning restore 612, 618
         }

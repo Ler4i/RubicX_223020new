@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RubicX_223020new.BusinessLogic.Core\RubicX_223020new.BusinessLogic.Core.csproj" />
     <ProjectReference Include="..\RubicX_223020new.DataAccess.Core\RubicX_223020new.DataAccess.Core.csproj" />
+    <ProjectReference Include="..\RubicX_223020new.DataAccess\RubicX_223020new.DataAccess.csproj" />
     <ProjectReference Include="..\Share\Share.csproj" />
   </ItemGroup>
 

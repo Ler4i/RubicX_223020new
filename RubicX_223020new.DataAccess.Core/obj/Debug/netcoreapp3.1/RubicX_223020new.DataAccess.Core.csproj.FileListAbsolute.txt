@@ -16,3 +16,12 @@ C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.DataAccess.C
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.csproj.CoreCompileInputs.cache
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.dll
 C:\Users\student\Desktop\testgame\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.pdb
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.deps.json
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.dll
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\bin\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.pdb
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.AssemblyInfoInputs.cache
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.AssemblyInfo.cs
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.csproj.CoreCompileInputs.cache
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.dll
+D:\Repository\RubicX_223020new\RubicX_223020new.DataAccess.Core\obj\Debug\netcoreapp3.1\RubicX_223020new.DataAccess.Core.pdb

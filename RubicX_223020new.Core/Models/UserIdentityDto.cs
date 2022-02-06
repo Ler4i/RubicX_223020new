@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RubicX_223020new.Core.Models
 {
-    public class UserIdentityDto
+    public class UserIdentityDto//описание пакета
     {
         public string? NumberPrefix { get; set; }
         public string? Number { get; set; }

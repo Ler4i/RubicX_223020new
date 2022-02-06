@@ -93,6 +93,18 @@
           "lib/netstandard2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Relational/3.1.21": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.21"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/3.1.21": {
         "type": "package",
         "dependencies": {
@@ -276,6 +288,20 @@
         },
         "runtime": {
           "bin/placeholder/RubicX_223020new.BusinessLogic.Core.dll": {}
+        }
+      },
+      "RubicX_223020new.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.21",
+          "RubicX_223020new.DataAccess.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RubicX_223020new.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RubicX_223020new.DataAccess.dll": {}
         }
       },
       "RubicX_223020new.DataAccess.Core/1.0.0": {
@@ -496,6 +522,20 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.3.1.21.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Relational/3.1.21": {
+      "sha512": "rntaAK8WXedsujwYrgAIHt/K0o6R04vp2y6hgS+c2td3SsDR9ZuCV/OLRfkgIHmtaBF5TyIf8h2G1ywJisLvZQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational/3.1.21",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
+        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
+        "microsoft.entityframeworkcore.relational.3.1.21.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
     "Microsoft.Extensions.Caching.Abstractions/3.1.21": {
@@ -886,6 +926,11 @@
       "path": "../RubicX_223020new.BusinessLogic.Core/RubicX_223020new.BusinessLogic.Core.csproj",
       "msbuildProject": "../RubicX_223020new.BusinessLogic.Core/RubicX_223020new.BusinessLogic.Core.csproj"
     },
+    "RubicX_223020new.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../RubicX_223020new.DataAccess/RubicX_223020new.DataAccess.csproj",
+      "msbuildProject": "../RubicX_223020new.DataAccess/RubicX_223020new.DataAccess.csproj"
+    },
     "RubicX_223020new.DataAccess.Core/1.0.0": {
       "type": "project",
       "path": "../RubicX_223020new.DataAccess.Core/RubicX_223020new.DataAccess.Core.csproj",
@@ -902,6 +947,7 @@
       "AutoMapper >= 10.1.1",
       "IdentityServer3 >= 2.6.3",
       "RubicX_223020new.BusinessLogic.Core >= 1.0.0",
+      "RubicX_223020new.DataAccess >= 1.0.0",
       "RubicX_223020new.DataAccess.Core >= 1.0.0",
       "Share >= 1.0.0"
     ]
@@ -946,6 +992,9 @@
             },
             "D:\\Repository\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj": {
               "projectPath": "D:\\Repository\\RubicX_223020new\\RubicX_223020new.DataAccess.Core\\RubicX_223020new.DataAccess.Core.csproj"
+            },
+            "D:\\Repository\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj": {
+              "projectPath": "D:\\Repository\\RubicX_223020new\\RubicX_223020new.DataAccess\\RubicX_223020new.DataAccess.csproj"
             },
             "D:\\Repository\\RubicX_223020new\\Share\\Share.csproj": {
               "projectPath": "D:\\Repository\\RubicX_223020new\\Share\\Share.csproj"

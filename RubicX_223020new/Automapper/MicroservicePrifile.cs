@@ -13,7 +13,8 @@ namespace RubicX_223020new.Automapper
         public MicroservicePrifile()
         {
             CreateMap<UserInformationBlo, UserInformationDto>();
-            CreateMap<UserUpdateBlo, UserUpdateDto>();
+            //CreateMap<UserUpdateBlo, UserUpdateDto>();
+            CreateMap<UserUpdateDto, UserUpdateBlo>();
         }
     }
 }
