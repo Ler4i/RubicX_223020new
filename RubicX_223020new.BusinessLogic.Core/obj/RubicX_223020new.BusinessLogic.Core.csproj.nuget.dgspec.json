@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repository\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {}
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {}
   },
   "projects": {
-    "D:\\Repository\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
+    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repository\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
+        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
         "projectName": "RubicX_223020new.BusinessLogic.Core",
-        "projectPath": "D:\\Repository\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
-        "packagesPath": "C:\\Users\\Валерия\\.nuget\\packages\\",
-        "outputPath": "D:\\Repository\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\obj\\",
+        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\RubicX_223020new.BusinessLogic.Core.csproj",
+        "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX_223020new\\RubicX_223020new.BusinessLogic.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Валерия\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
